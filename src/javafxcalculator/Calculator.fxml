@@ -18,8 +18,10 @@
       <Label layoutX="6.0" layoutY="104.0" text="Second Number" />
       <TextField fx:id="firstTextField" layoutX="171.0" layoutY="52.0" AnchorPane.rightAnchor="0.0" />
       <TextField fx:id="secondTextField" layoutX="171.0" layoutY="100.0" prefHeight="25.0" prefWidth="149.0" AnchorPane.rightAnchor="0.0" />
-      <Button fx:id="additionButton" layoutX="10.0" layoutY="151.0" mnemonicParsing="false" onAction="#handleAdditionAction" style="-fx-background-color: black; -fx-text-fill: white;" text="Addition" />
-      <Button fx:id="multiplicationButton" layoutX="75.0" layoutY="151.0" mnemonicParsing="false" onAction="#handleMultiplicationAction" style="-fx-background-color: black; -fx-text-fill: white;" text="Multiplication" />
-      <TextField fx:id="resultTextField" layoutX="171.0" layoutY="151.0" />
+      <Button fx:id="additionButton" layoutX="10.0" layoutY="151.0" mnemonicParsing="false" onAction="#handleAdditionAction" style="-fx-background-color: black; -fx-text-fill: white;" text="Addition" AnchorPane.leftAnchor="0.0" />
+      <Button fx:id="multiplicationButton" layoutX="169.0" layoutY="151.0" mnemonicParsing="false" onAction="#handleMultiplicationAction" style="-fx-background-color: black; -fx-text-fill: white;" text="Multiplication" AnchorPane.rightAnchor="65.0" />
+      <TextField fx:id="resultTextField" editable="false" layoutX="3.0" layoutY="183.0" prefHeight="25.0" prefWidth="319.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Button fx:id="subtractionButton" layoutX="64.0" layoutY="151.0" mnemonicParsing="false" onAction="#handleSubtractionAction" style="-fx-background-color: black; -fx-text-fill: white;" text="Subtraction" AnchorPane.leftAnchor="70.0" />
+      <Button fx:id="divisionButton" layoutX="264.0" layoutY="151.0" mnemonicParsing="false" onAction="#handleDivisionAction" style="-fx-background-color: black; -fx-text-fill: white;" text="Division" AnchorPane.rightAnchor="0.0" />
    </children>
 </AnchorPane>
