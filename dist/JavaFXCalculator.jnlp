@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="JavaFXCalculator.jar" size="3302" download="eager" />
+    <jar href="JavaFXCalculator.jar" size="7460" download="eager" />
   </resources>
   <jfx:javafx-desc  width="800" height="600" main-class="javafxcalculator.JavaFXCalculator"  name="JavaFXCalculator" />
   <update check="always"/>

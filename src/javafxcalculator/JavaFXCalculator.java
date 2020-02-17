@@ -9,7 +9,8 @@ import javafx.stage.Stage;
 /**
  *
  * @author Tristan
- * @version 1.1 added subtraction and division operation
+ * @version 2.0 revised calculator, including buttons to represent numbers 
+ *      and operations
  */
 public class JavaFXCalculator extends Application {
     
